@@ -1,0 +1,84 @@
+body
+{
+    background-color: black;
+}
+.caixa /*section ou pai*/
+{
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+
+}
+
+.caixacomflex
+{
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  display: flex;
+      
+}
+
+.caixacomflexwrap
+{
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caixaflexStart
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.caixaflexEnd
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-end;
+}
+.caixaSpaceBetween
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.caixaspacearound
+{
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixacenter
+{
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.item /* divi ou pai*/
+{
+    background-color: tomato;
+    font-size: 32px;
+    text-align: center;
+    margin: 5px;
+}
+h1
+{
+    text-align: center;
+    color: aliceblue;
+}
